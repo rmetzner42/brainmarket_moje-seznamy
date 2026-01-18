@@ -1,23 +1,14 @@
-# BrainMarket – Moje seznamy (MVP návrh)
+# BrainMarket – Moje seznamy (MVP)
 
-Návrh jednoduché funkce „Moje seznamy“:
-- zákazník si uloží seznam produktů
-- pojmenuje si ho (např. Měsíční objednávka)
-- jedním klikem vloží celý seznam do košíku
+Minimalistický návrh funkce „Moje seznamy“, která umožňuje zákazníkům
+uložit vlastní seznam produktů a jedním krokem jej přidat do košíku.
 
-Cíl:
+## Funkční koncept
+- zákazník si vytvoří vlastní seznam produktů
+- seznam si pojmenuje (např. „Měsíční objednávka“)
+- celý seznam lze jedním klikem vložit do košíku
+
+## Cíl návrhu
 - zrychlit opakované objednávky
-- zefektivnit proces nákupu více položek
-
-## Technický koncept
-- Node.js + Express (MVP)
-- seznam = uložený mini-košík
-- endpoint umožní hromadné přidání do košíku
-
-## Spuštění (volitelné)
-1. npm install
-2. node app.js
-3. API běží na http://localhost:3000
-
-Klíčová funkce:
-POST /lists/:id/add-to-cart
+- snížit tření při nákupu více položek
+- nabídnout základ pro budoucí rozšíření (B2C / B2B)
