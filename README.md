@@ -10,5 +10,4 @@ uložit vlastní seznam produktů a jedním krokem jej přidat do košíku.
 
 ## Cíl návrhu
 - zrychlit opakované objednávky
-- snížit tření při nákupu více položek
-- nabídnout základ pro budoucí rozšíření (B2C / B2B)
+- ušetřit čas při nákupu více položek
